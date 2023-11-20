@@ -1,8 +1,11 @@
 ﻿  DigitalDiary.cpp
-D:\University\Projects\DD\Digital_Diary_Console_App\DigitalDiary\DigitalDiary\Menus.cpp(28,24): warning C4101: 'e': unreferenced local variable
+D:\University\Projects\Digital_Diary_App\Digital_Diary_Console_Application\DigitalDiary\DigitalDiary\Menus.cpp(28,24): warning C4101: 'e': unreferenced local variable
+D:\University\Projects\Digital_Diary_App\Digital_Diary_Console_Application\DigitalDiary\DigitalDiary\Menus.cpp(56,24): warning C4101: 'e': unreferenced local variable
   Menus.cpp
-D:\University\Projects\DD\Digital_Diary_Console_App\DigitalDiary\DigitalDiary\Menus.cpp(28,24): warning C4101: 'e': unreferenced local variable
+D:\University\Projects\Digital_Diary_App\Digital_Diary_Console_Application\DigitalDiary\DigitalDiary\Menus.cpp(28,24): warning C4101: 'e': unreferenced local variable
+D:\University\Projects\Digital_Diary_App\Digital_Diary_Console_Application\DigitalDiary\DigitalDiary\Menus.cpp(56,24): warning C4101: 'e': unreferenced local variable
   Navigations.cpp
-D:\University\Projects\DD\Digital_Diary_Console_App\DigitalDiary\DigitalDiary\Menus.cpp(28,24): warning C4101: 'e': unreferenced local variable
+D:\University\Projects\Digital_Diary_App\Digital_Diary_Console_Application\DigitalDiary\DigitalDiary\Menus.cpp(28,24): warning C4101: 'e': unreferenced local variable
+D:\University\Projects\Digital_Diary_App\Digital_Diary_Console_Application\DigitalDiary\DigitalDiary\Menus.cpp(56,24): warning C4101: 'e': unreferenced local variable
   Generating Code...
-  DigitalDiary.vcxproj -> D:\University\Projects\DD\Digital_Diary_Console_App\DigitalDiary\x64\Debug\DigitalDiary.exe
+  DigitalDiary.vcxproj -> D:\University\Projects\Digital_Diary_App\Digital_Diary_Console_Application\DigitalDiary\x64\Debug\DigitalDiary.exe

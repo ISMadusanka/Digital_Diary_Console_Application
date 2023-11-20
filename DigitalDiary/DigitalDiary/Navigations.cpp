@@ -14,13 +14,18 @@ public:
             switch (mainMenuResult)
             {
             case 1:
-                //Enter data menu
+                //Add Log menu
+                addLogFlow();
                
                 break;
 
             case 2:
-                //Show data menu
+                //View Log menu
                 
+                break;
+
+            case 3:
+                //Event menu
                 break;
 
             default:
@@ -28,6 +33,39 @@ public:
             }
 
 
-        } while (mainMenuResult != 3);
+        } while (mainMenuResult != 4);
 	}
+
+    void addLogFlow() {
+        short menuResult = 0;
+
+        do {
+            menuResult = chooseCategoryMenu();
+
+            switch (menuResult)
+            {
+            case 1:
+                //Add Log menu
+                
+
+                break;
+
+            case 2:
+                //View Log menu
+                
+
+                break;
+
+            case 3:
+                //Event menu
+               
+                break;
+
+            default:
+                break;
+            }
+
+
+        } while (menuResult != 4);
+    }
 };

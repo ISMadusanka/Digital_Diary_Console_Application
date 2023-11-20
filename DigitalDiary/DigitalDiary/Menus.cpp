@@ -18,7 +18,35 @@ public:
             try {
                 cin >> n;
 
-                if (n > 0 && n < 4) {
+                if (n > 0 && n < 5) {
+                    return n;
+                }
+                else {
+                    cout << "\033[1;31m--Enter a value between 1 and 4--\033[0m\n";
+                }
+            }
+            catch (int e) {
+
+            }
+
+        }
+    }
+
+    short chooseCategoryMenu() {
+        short n = 0;
+
+        while (true) {
+            cout << "\033[1;32m1. cat1\033[0m\n";
+            cout << "\033[1;32m2. cat2\033[0m\n";
+            cout << "\033[1;32m3. cat3\033[0m\n";
+            cout << "\033[1;32m4. cat4\033[0m\n\n";
+            cout << endl;
+            cout << "Select an Option: ";
+
+            try {
+                cin >> n;
+
+                if (n > 0 && n < 5) {
                     return n;
                 }
                 else {
@@ -32,10 +60,6 @@ public:
         }
     }
 
-    short chooseCategoryMenu() {
-        //implement 
-    }
-
     short viewLogsMenu() {
         //implement
     }
@@ -43,4 +67,31 @@ public:
     short eventsMenu() {
         //implement
     }
+
+    short viewEventsMenu() {
+        //implement
+    }
+
+    short upcommingEventsMenu() {
+        //implement
+    }
+
+    short pastEventMenu() {
+        //implement
+    }
+
+    short confirmationMenu() {
+        //implement
+    }
+
+    short goBackMenu() {
+        //implement
+    }
+
+    short goBackAndGoBackMainMenu() {
+        //implement
+    }
+    
+
+
 };
