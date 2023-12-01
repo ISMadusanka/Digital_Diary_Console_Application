@@ -127,9 +127,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Database.cpp" />
+    <ClCompile Include="DataModels.cpp" />
     <ClCompile Include="DigitalDiary.cpp" />
     <ClCompile Include="Menus.cpp" />
     <ClCompile Include="Navigations.cpp" />
+    <ClCompile Include="UserIOStream.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

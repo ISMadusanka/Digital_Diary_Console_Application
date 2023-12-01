@@ -1,10 +1,19 @@
+#pragma once
 #include <iostream>
 #include "Menus.cpp"
+#include "DataModels.cpp"
+#include "Database.cpp"
+
+
 
 using namespace std;
 
 class Navigations : private Menus {
 public:
+
+    Logs log;
+    HashMap logsMap;
+
     void startNavigation() {
         short mainMenuResult = 0;
 
@@ -36,8 +45,12 @@ public:
 
         } while (mainMenuResult != 4);
     }
+    CategoryNodeValue catNodeValue;
+
     void addLogFlow() {
         short menuResult = 0;
+
+        Date date;
 
         do {
             menuResult = chosedate();
@@ -46,12 +59,15 @@ public:
             {
             case 1:
                 //Change date
+                
 
 
                 break;
 
             case 2:
                 //continue
+                date = date.currentDate();
+                catNodeValue.date = date;
                 chosecategoryN();
 
                 break;
@@ -73,6 +89,7 @@ public:
     }
 
 
+    short r = 0;
     void chosecategoryN() {
         short menuResult = 0;
 
@@ -83,34 +100,124 @@ public:
             {
             case 1:
                 //Health
-
-
+                catNodeValue.category = HEALTH;
+                cout << "Enter Topic: ";
+                cin >> catNodeValue.topic;
+                cout << "Short Description: ";
+                cin >> catNodeValue.short_description;
+                cout << "Description: ";
+                cin >> catNodeValue.description;
+                r = confirmationMenu();
+                if (r == 1) {
+                    log.addLog(catNodeValue);
+                    logsMap.insert(log);
+                    cout << "Saved \n";
+                }
+                else {
+                    cout << "Camcel save \n";
+                }
                 break;
 
             case 2:
                 //Education
+                catNodeValue.category = EDUCATION;
+                cout << "Enter Topic: ";
+                cin >> catNodeValue.topic;
+                cout << "Short Description: ";
+                cin >> catNodeValue.short_description;
+                cout << "Description";
+                cin >> catNodeValue.description;
+                 r = confirmationMenu();
+                if (r == 1) {
+                    log.addLog(catNodeValue);
+                    logsMap.insert(log);
 
-
+                    cout << "Saved \n";
+                }
+                else {
+                    cout << "Camcel save \n";
+                }
                 break;
 
             case 3:
                 //Finance
+                catNodeValue.category = FINANCE;
+                cout << "Enter Topic: ";
+                cin >> catNodeValue.topic;
+                cout << "Short Description: ";
+                cin >> catNodeValue.short_description;
+                cout << "Description";
+                cin >> catNodeValue.description;
+                 r = confirmationMenu();
+                if (r == 1) {
+                    log.addLog(catNodeValue);
+                    logsMap.insert(log);
 
-
+                    cout << "Saved \n";
+                }
+                else {
+                    cout << "Camcel save \n";
+                }
                 break;
             case 4:
                 //Lifestyle
+                catNodeValue.category = LIFESTYLE;
+                cout << "Enter Topic: ";
+                cin >> catNodeValue.topic;
+                cout << "Short Description: ";
+                cin >> catNodeValue.short_description;
+                cout << "Description";
+                cin >> catNodeValue.description;
+                 r = confirmationMenu();
+                if (r == 1) {
+                    log.addLog(catNodeValue);
+                    logsMap.insert(log);
 
-
+                    cout << "Saved \n";
+                }
+                else {
+                    cout << "Camcel save \n";
+                }
                 break;
             case 5:
                 //Fitness
+                catNodeValue.category = FITNESS;
+                cout << "Enter Topic: ";
+                cin >> catNodeValue.topic;
+                cout << "Short Description: ";
+                cin >> catNodeValue.short_description;
+                cout << "Description";
+                cin >> catNodeValue.description;
+                 r = confirmationMenu();
+                if (r == 1) {
+                    log.addLog(catNodeValue);
+                    logsMap.insert(log);
 
-
+                    cout << "Saved \n";
+                }
+                else {
+                    cout << "Camcel save \n";
+                }
                 break;
             case 6:
                 //Other
+                catNodeValue.category = OTHER;
+                cout << "Enter Topic: ";
+                cin >> catNodeValue.topic;
+                cout << "Short Description: ";
+                cin >> catNodeValue.short_description;
+                cout << "Description";
+                cin >> catNodeValue.description;
+                 r = confirmationMenu();
+                if (r == 1) {
+                    log.addLog(catNodeValue);
+                    logsMap.insert(log);
 
+                    cout << "Saved \n";
+                }
+                else {
+                    cout << "Cancel save \n";
+                }
 
                 break;
             case 7:
@@ -138,7 +245,8 @@ public:
 
     void ViewLOgs() {
         short menuResult = 0;
-
+        Logs tmpLog;
+        Date d(2, 12, 2023);
         do {
             menuResult = viewLogsMenu();
 
@@ -146,7 +254,9 @@ public:
             {
             case 1:
                 //Search by date
-
+                //tmpLog = logsMap.search(d);
+               // tmpLog.health.getSize();
+                cout << logsMap.hashArray[2037].key.year;
 
                 break;
 

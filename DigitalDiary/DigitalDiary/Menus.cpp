@@ -1,4 +1,6 @@
+#pragma once
 #include <iostream>
+#include "DataModels.cpp";
 
 using namespace std;
 
@@ -35,10 +37,10 @@ public:
     short chosedate() {
         //implement
         short n = 0;
-
+        Date d=d.currentDate();
         while (true) {
-
-            cout << "\n\033[1;32m ..Show current date..\033[0m \n" << endl;
+            
+            cout << "\n\033[1;32m Current Date\033[0m \n" << d.day<<"/"<<d.month<<"/"<<d.year << endl;
 
             cout << "\033[1;32m1. Change Date \033[0m\n";
             cout << "\033[1;32m2. Continue\033[0m\n\n";
@@ -288,6 +290,31 @@ public:
 
     short confirmationMenu() {
         //implement
+        short n = 0;
+
+        while (true) {
+
+            cout << "\033[1;32m1. Save\033[0m\n";
+            cout << "\033[1;32m2. Cancel\033[0m\n\n";
+
+            cout << endl;
+            cout << "Select an Option: ";
+
+            try {
+                cin >> n;
+
+                if (n > 0 && n < 3) {
+                    return n;
+                }
+                else {
+                    cout << "\033[1;31m--Enter a value between 1 and 2--\033[0m\n";
+                }
+            }
+            catch (int e) {
+
+            }
+
+        }
     }
 
     short goBackMenu() {
@@ -300,5 +327,5 @@ public:
     //VIEW LOGS MENU PARTH
 
 
-
+    
 };
