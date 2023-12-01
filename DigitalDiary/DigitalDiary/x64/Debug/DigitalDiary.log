@@ -1,11 +1,32 @@
 ﻿  DigitalDiary.cpp
-D:\University\Projects\Digital_Diary_App\Digital_Diary_Console_Application\DigitalDiary\DigitalDiary\Menus.cpp(28,24): warning C4101: 'e': unreferenced local variable
-D:\University\Projects\Digital_Diary_App\Digital_Diary_Console_Application\DigitalDiary\DigitalDiary\Menus.cpp(56,24): warning C4101: 'e': unreferenced local variable
+E:\Github_work_place\DSA_Project\Digital_Diary_Console_Application\Digital_Diary_Console_Application\DigitalDiary\DigitalDiary\Menus.cpp(29,24): warning C4101: 'e': unreferenced local variable
+E:\Github_work_place\DSA_Project\Digital_Diary_Console_Application\Digital_Diary_Console_Application\DigitalDiary\DigitalDiary\Menus.cpp(60,24): warning C4101: 'e': unreferenced local variable
+E:\Github_work_place\DSA_Project\Digital_Diary_Console_Application\Digital_Diary_Console_Application\DigitalDiary\DigitalDiary\Menus.cpp(95,24): warning C4101: 'e': unreferenced local variable
+E:\Github_work_place\DSA_Project\Digital_Diary_Console_Application\Digital_Diary_Console_Application\DigitalDiary\DigitalDiary\Menus.cpp(125,24): warning C4101: 'e': unreferenced local variable
+E:\Github_work_place\DSA_Project\Digital_Diary_Console_Application\Digital_Diary_Console_Application\DigitalDiary\DigitalDiary\Menus.cpp(157,24): warning C4101: 'e': unreferenced local variable
+E:\Github_work_place\DSA_Project\Digital_Diary_Console_Application\Digital_Diary_Console_Application\DigitalDiary\DigitalDiary\Menus.cpp(187,24): warning C4101: 'e': unreferenced local variable
+E:\Github_work_place\DSA_Project\Digital_Diary_Console_Application\Digital_Diary_Console_Application\DigitalDiary\DigitalDiary\Menus.cpp(217,24): warning C4101: 'e': unreferenced local variable
+E:\Github_work_place\DSA_Project\Digital_Diary_Console_Application\Digital_Diary_Console_Application\DigitalDiary\DigitalDiary\Menus.cpp(250,24): warning C4101: 'e': unreferenced local variable
+E:\Github_work_place\DSA_Project\Digital_Diary_Console_Application\Digital_Diary_Console_Application\DigitalDiary\DigitalDiary\Menus.cpp(281,24): warning C4101: 'e': unreferenced local variable
   Menus.cpp
-D:\University\Projects\Digital_Diary_App\Digital_Diary_Console_Application\DigitalDiary\DigitalDiary\Menus.cpp(28,24): warning C4101: 'e': unreferenced local variable
-D:\University\Projects\Digital_Diary_App\Digital_Diary_Console_Application\DigitalDiary\DigitalDiary\Menus.cpp(56,24): warning C4101: 'e': unreferenced local variable
+E:\Github_work_place\DSA_Project\Digital_Diary_Console_Application\Digital_Diary_Console_Application\DigitalDiary\DigitalDiary\Menus.cpp(29,24): warning C4101: 'e': unreferenced local variable
+E:\Github_work_place\DSA_Project\Digital_Diary_Console_Application\Digital_Diary_Console_Application\DigitalDiary\DigitalDiary\Menus.cpp(60,24): warning C4101: 'e': unreferenced local variable
+E:\Github_work_place\DSA_Project\Digital_Diary_Console_Application\Digital_Diary_Console_Application\DigitalDiary\DigitalDiary\Menus.cpp(95,24): warning C4101: 'e': unreferenced local variable
+E:\Github_work_place\DSA_Project\Digital_Diary_Console_Application\Digital_Diary_Console_Application\DigitalDiary\DigitalDiary\Menus.cpp(125,24): warning C4101: 'e': unreferenced local variable
+E:\Github_work_place\DSA_Project\Digital_Diary_Console_Application\Digital_Diary_Console_Application\DigitalDiary\DigitalDiary\Menus.cpp(157,24): warning C4101: 'e': unreferenced local variable
+E:\Github_work_place\DSA_Project\Digital_Diary_Console_Application\Digital_Diary_Console_Application\DigitalDiary\DigitalDiary\Menus.cpp(187,24): warning C4101: 'e': unreferenced local variable
+E:\Github_work_place\DSA_Project\Digital_Diary_Console_Application\Digital_Diary_Console_Application\DigitalDiary\DigitalDiary\Menus.cpp(217,24): warning C4101: 'e': unreferenced local variable
+E:\Github_work_place\DSA_Project\Digital_Diary_Console_Application\Digital_Diary_Console_Application\DigitalDiary\DigitalDiary\Menus.cpp(250,24): warning C4101: 'e': unreferenced local variable
+E:\Github_work_place\DSA_Project\Digital_Diary_Console_Application\Digital_Diary_Console_Application\DigitalDiary\DigitalDiary\Menus.cpp(281,24): warning C4101: 'e': unreferenced local variable
   Navigations.cpp
-D:\University\Projects\Digital_Diary_App\Digital_Diary_Console_Application\DigitalDiary\DigitalDiary\Menus.cpp(28,24): warning C4101: 'e': unreferenced local variable
-D:\University\Projects\Digital_Diary_App\Digital_Diary_Console_Application\DigitalDiary\DigitalDiary\Menus.cpp(56,24): warning C4101: 'e': unreferenced local variable
+E:\Github_work_place\DSA_Project\Digital_Diary_Console_Application\Digital_Diary_Console_Application\DigitalDiary\DigitalDiary\Menus.cpp(29,24): warning C4101: 'e': unreferenced local variable
+E:\Github_work_place\DSA_Project\Digital_Diary_Console_Application\Digital_Diary_Console_Application\DigitalDiary\DigitalDiary\Menus.cpp(60,24): warning C4101: 'e': unreferenced local variable
+E:\Github_work_place\DSA_Project\Digital_Diary_Console_Application\Digital_Diary_Console_Application\DigitalDiary\DigitalDiary\Menus.cpp(95,24): warning C4101: 'e': unreferenced local variable
+E:\Github_work_place\DSA_Project\Digital_Diary_Console_Application\Digital_Diary_Console_Application\DigitalDiary\DigitalDiary\Menus.cpp(125,24): warning C4101: 'e': unreferenced local variable
+E:\Github_work_place\DSA_Project\Digital_Diary_Console_Application\Digital_Diary_Console_Application\DigitalDiary\DigitalDiary\Menus.cpp(157,24): warning C4101: 'e': unreferenced local variable
+E:\Github_work_place\DSA_Project\Digital_Diary_Console_Application\Digital_Diary_Console_Application\DigitalDiary\DigitalDiary\Menus.cpp(187,24): warning C4101: 'e': unreferenced local variable
+E:\Github_work_place\DSA_Project\Digital_Diary_Console_Application\Digital_Diary_Console_Application\DigitalDiary\DigitalDiary\Menus.cpp(217,24): warning C4101: 'e': unreferenced local variable
+E:\Github_work_place\DSA_Project\Digital_Diary_Console_Application\Digital_Diary_Console_Application\DigitalDiary\DigitalDiary\Menus.cpp(250,24): warning C4101: 'e': unreferenced local variable
+E:\Github_work_place\DSA_Project\Digital_Diary_Console_Application\Digital_Diary_Console_Application\DigitalDiary\DigitalDiary\Menus.cpp(281,24): warning C4101: 'e': unreferenced local variable
   Generating Code...
-  DigitalDiary.vcxproj -> D:\University\Projects\Digital_Diary_App\Digital_Diary_Console_Application\DigitalDiary\x64\Debug\DigitalDiary.exe
+  DigitalDiary.vcxproj -> E:\Github_work_place\DSA_Project\Digital_Diary_Console_Application\Digital_Diary_Console_Application\DigitalDiary\x64\Debug\DigitalDiary.exe
