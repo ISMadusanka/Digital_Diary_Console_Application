@@ -55,7 +55,9 @@ public:
 	string description;
 	Categories category;
 
-	CategoryNodeValue(){}
+	CategoryNodeValue(){
+		
+	}
 	CategoryNodeValue(Date date, string topic, string short_description, string description, Categories category) {
 		this->date = date;
 		this->topic = topic;

@@ -6,14 +6,36 @@ using namespace std;
 
 class Menus {
 public:
+    
+    void Wellcome() {
+        for (int i = 0; i < 156; ++i) {
+            cout << "-";
+        }
+        cout << endl;
+        for (int i = 0; i < 65; ++i) {
+            cout << " ";
+        }
+        cout << "WELCOME TO DIGAL LIBRARY" << endl;
+        cout << endl;
+        for (int i = 0; i < 40; ++i) {
+            cout << " ";
+        }
+        cout << "~~ A diary is the autobiography of a moment in time, unedited by the future ~~" << endl;
+        for (int i = 0; i < 156; ++i) {
+            cout << "-";
+        }
+        cout << endl;
+    }
+
     short mainMenu() {
         short n = 0;
 
         while (true) {
-            cout << "\n\033[1;32m HII...Do you want to\033[0m\n\n";
-            cout << "\033[1;32m1. Add Log\033[0m\n";
-            cout << "\033[1;32m2. View Logs\033[0m\n";
-            cout << "\033[1;32m3. Events\033[0m\n\n";
+            
+            cout << "\n\033[1;33m Hi there! What would you like to do today :)\033[0m\n\n";
+            cout << "\033[1;32m1. Add a new Entry\033[0m\n";
+            cout << "\033[1;32m2. View past Logs\033[0m\n";
+            cout << "\033[1;32m3. Add a new Event\033[0m\n\n";
             cout << "\033[1;32m4. Exit\033[0m\n\n";
             cout << endl;
             cout << "Select an Option: ";
@@ -40,9 +62,9 @@ public:
         Date d=d.currentDate();
         while (true) {
             
-            cout << "\n\033[1;32m Current Date\033[0m \n" << d.day<<"/"<<d.month<<"/"<<d.year << endl;
+            cout << "\n\033[1;33m Current Date is: \033[0m " << d.day<<"/"<<d.month<<"/"<<d.year <<"\n"<< endl;
 
-            cout << "\033[1;32m1. Change Date \033[0m\n";
+            cout << "\033[1;32m1. Do you want to Change Date \033[0m\n";
             cout << "\033[1;32m2. Continue\033[0m\n\n";
             cout << "\033[1;32m3. Go Back\033[0m\n\n";
 
@@ -72,7 +94,7 @@ public:
 
         while (true) {
 
-            cout << "\n\033[1;32m ..Choose Your Category..\033[0m \n" << endl;
+            cout << "\n\033[1;33m ChooseCategory\033[0m \n" << endl;
 
             cout << "\033[1;32m1. Health\033[0m\n";
             cout << "\033[1;32m2. Education\033[0m\n";
@@ -107,8 +129,8 @@ public:
 
         while (true) {
 
-            cout << "\033[1;32m1. Search By Date\033[0m\n";
-            cout << "\033[1;32m2. View By Category\033[0m\n\n";
+            cout << "\033[1;32m1. View Topics By Date\033[0m\n";
+            cout << "\033[1;32m2. View Topicd By Category\033[0m\n\n";
             cout << "\033[1;32m3. Go Back\033[0m\n\n";
 
             cout << endl;
@@ -231,7 +253,7 @@ public:
 
         while (true) {
 
-            cout << "\n\033[1;32m ..Event List..\033[0m \n" << endl;
+            cout << "\n\033[1;32m Event List\033[0m \n" << endl;
             cout << "\033[1;32m1. Go Back\033[0m\n";
             cout << "\033[1;32m2. Delete \033[0m\n\n";
 
@@ -262,7 +284,7 @@ public:
 
         while (true) {
 
-            cout << "\n\033[1;32m ..Event List..\033[0m \n" << endl;
+            cout << "\n\033[1;33m Event List....\033[0m \n" << endl;
             cout << "\033[1;32m1. Delete\033[0m\n";
             cout << "\033[1;32m2. Delete All\033[0m\n\n";
             cout << "\033[1;32m3. Go Back\033[0m\n\n";

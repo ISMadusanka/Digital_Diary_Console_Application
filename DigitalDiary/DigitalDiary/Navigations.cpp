@@ -37,6 +37,8 @@ public:
                 //Event menu
                 Event();
                 break;
+            case 4:
+                break;
 
             default:
                 break;
