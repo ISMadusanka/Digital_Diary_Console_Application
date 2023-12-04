@@ -9,6 +9,8 @@
 using namespace std;
 int main()
 {
+	Menus m;
+	m.Wellcome();
 	Navigations n;
 	n.startNavigation();
 

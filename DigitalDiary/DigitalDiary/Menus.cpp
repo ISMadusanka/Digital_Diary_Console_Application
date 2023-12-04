@@ -1,19 +1,73 @@
 #pragma once
 #include <iostream>
 #include "DataModels.cpp";
-
+#include <thread>
+#include <chrono>
 using namespace std;
 
 class Menus {
 public:
+    void Wellcome() {
+        for (int i = 0; i < 156; ++i) {
+            cout << "-";
+        }
+        cout << endl;
+        for (int i = 0; i < 65; ++i) {
+            cout << " ";
+        }
+        
+        cout << "WELCOME";
+        this_thread::sleep_for(chrono::milliseconds(100));
+        
+        cout << "   TO";
+        this_thread::sleep_for(chrono::milliseconds(100));
+        
+        cout << "   DIGAL";
+        this_thread::sleep_for(chrono::milliseconds(100));
+        
+        cout << "   LIBRARY";
+        this_thread::sleep_for(chrono::milliseconds(100));
+        
+        cout << "" << endl;
+
+        cout << endl;
+        for (int i = 0; i < 40; ++i) {
+            cout << " ";
+        }
+        //cout << "~~ A diary is the autobiography of a moment in time, unedited by the future ~~" << endl;
+        cout << "~~ A diary";
+        this_thread::sleep_for(chrono::milliseconds(100));
+        cout << "  is the";
+        this_thread::sleep_for(chrono::milliseconds(100));
+        cout << "  autobiography";
+        this_thread::sleep_for(chrono::milliseconds(100));
+        cout << "  of a";
+        this_thread::sleep_for(chrono::milliseconds(100));
+        cout << "  moment ";
+        this_thread::sleep_for(chrono::milliseconds(100));
+        cout << "  in time,";
+        this_thread::sleep_for(chrono::milliseconds(100));
+        cout << "  unedited";
+        this_thread::sleep_for(chrono::milliseconds(100));
+        cout << "  by";
+        this_thread::sleep_for(chrono::milliseconds(100));
+        cout << " the future ~~";
+        this_thread::sleep_for(chrono::milliseconds(100));
+
+        cout << "" << endl;
+        for (int i = 0; i < 156; ++i) {
+            cout << "-";
+        }
+        cout << endl;
+    }
     short mainMenu() {
         short n = 0;
 
         while (true) {
-            cout << "\n\033[1;32m HII...Do you want to\033[0m\n\n";
-            cout << "\033[1;32m1. Add Log\033[0m\n";
-            cout << "\033[1;32m2. View Logs\033[0m\n";
-            cout << "\033[1;32m3. Events\033[0m\n\n";
+            cout << "\n\033[1;33m   Hi.. there, What would you like to do today :)\033[0m\n\n";
+            cout << "\033[1;32m1. Add a new Entry\033[0m\n";
+            cout << "\033[1;32m2. View past Logs\033[0m\n";
+            cout << "\033[1;32m3. Add a new Event\033[0m\n\n";
             cout << "\033[1;32m4. Exit\033[0m\n\n";
             cout << endl;
             cout << "Select an Option: ";
@@ -43,7 +97,7 @@ public:
 
         while (true) {
 
-            cout << "\n\033[1;32m ..Choose Your Category..\033[0m \n" << endl;
+            cout << "\n\033[1;33m   Choose Category \033[0m \n" << endl;
 
             cout << "\033[1;32m1. Health\033[0m\n";
             cout << "\033[1;32m2. Education\033[0m\n";
@@ -77,9 +131,9 @@ public:
         short n = 0;
 
         while (true) {
-
-            cout << "\033[1;32m1. Search By Date\033[0m\n";
-            cout << "\033[1;32m2. View By Category\033[0m\n\n";
+            cout << "\n\033[1;33m   How Do You Want to find entry\033[0m\n\n";
+            cout << "\033[1;32m1. Search entries By Date\033[0m\n";
+            cout << "\033[1;32m2. Search entries By Category\033[0m\n\n";
             cout << "\033[1;32m3. Go Back\033[0m\n\n";
 
             cout << endl;
