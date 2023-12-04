@@ -34,37 +34,8 @@ public:
 
         }
     }
-    short chosedate() {
-        //implement
-        short n = 0;
-        Date d=d.currentDate();
-        while (true) {
-            
-            cout << "\n\033[1;32m Current Date\033[0m \n" << d.day<<"/"<<d.month<<"/"<<d.year << endl;
 
-            cout << "\033[1;32m1. Change Date \033[0m\n";
-            cout << "\033[1;32m2. Continue\033[0m\n\n";
-            cout << "\033[1;32m3. Go Back\033[0m\n\n";
-
-            cout << endl;
-            cout << "Select an Option: ";
-
-            try {
-                cin >> n;
-
-                if (n > 0 && n < 4) {
-                    return n;
-                }
-                else {
-                    cout << "\033[1;31m--Enter a value between 1 and 3--\033[0m\n";
-                }
-            }
-            catch (int e) {
-
-            }
-
-        }
-    }
+   
 
 
     short chooseCategoryMenu() {

@@ -1,52 +1,13 @@
-﻿  Database.cpp
-  DataModels.cpp
-  DigitalDiary.cpp
+﻿  Navigations.cpp
 D:\University\Projects\Digital_Diary_App\Digital_Diary_Console_Application\DigitalDiary\DigitalDiary\Menus.cpp(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
 D:\University\Projects\Digital_Diary_App\Digital_Diary_Console_Application\DigitalDiary\DigitalDiary\Menus.cpp(31,24): warning C4101: 'e': unreferenced local variable
-D:\University\Projects\Digital_Diary_App\Digital_Diary_Console_Application\DigitalDiary\DigitalDiary\Menus.cpp(62,24): warning C4101: 'e': unreferenced local variable
-D:\University\Projects\Digital_Diary_App\Digital_Diary_Console_Application\DigitalDiary\DigitalDiary\Menus.cpp(97,24): warning C4101: 'e': unreferenced local variable
-D:\University\Projects\Digital_Diary_App\Digital_Diary_Console_Application\DigitalDiary\DigitalDiary\Menus.cpp(127,24): warning C4101: 'e': unreferenced local variable
-D:\University\Projects\Digital_Diary_App\Digital_Diary_Console_Application\DigitalDiary\DigitalDiary\Menus.cpp(159,24): warning C4101: 'e': unreferenced local variable
-D:\University\Projects\Digital_Diary_App\Digital_Diary_Console_Application\DigitalDiary\DigitalDiary\Menus.cpp(189,24): warning C4101: 'e': unreferenced local variable
-D:\University\Projects\Digital_Diary_App\Digital_Diary_Console_Application\DigitalDiary\DigitalDiary\Menus.cpp(219,24): warning C4101: 'e': unreferenced local variable
-D:\University\Projects\Digital_Diary_App\Digital_Diary_Console_Application\DigitalDiary\DigitalDiary\Menus.cpp(252,24): warning C4101: 'e': unreferenced local variable
-D:\University\Projects\Digital_Diary_App\Digital_Diary_Console_Application\DigitalDiary\DigitalDiary\Menus.cpp(283,24): warning C4101: 'e': unreferenced local variable
-D:\University\Projects\Digital_Diary_App\Digital_Diary_Console_Application\DigitalDiary\DigitalDiary\Menus.cpp(313,24): warning C4101: 'e': unreferenced local variable
-  Menus.cpp
-D:\University\Projects\Digital_Diary_App\Digital_Diary_Console_Application\DigitalDiary\DigitalDiary\Menus.cpp(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-D:\University\Projects\Digital_Diary_App\Digital_Diary_Console_Application\DigitalDiary\DigitalDiary\Menus.cpp(31,24): warning C4101: 'e': unreferenced local variable
-D:\University\Projects\Digital_Diary_App\Digital_Diary_Console_Application\DigitalDiary\DigitalDiary\Menus.cpp(62,24): warning C4101: 'e': unreferenced local variable
-D:\University\Projects\Digital_Diary_App\Digital_Diary_Console_Application\DigitalDiary\DigitalDiary\Menus.cpp(97,24): warning C4101: 'e': unreferenced local variable
-D:\University\Projects\Digital_Diary_App\Digital_Diary_Console_Application\DigitalDiary\DigitalDiary\Menus.cpp(127,24): warning C4101: 'e': unreferenced local variable
-D:\University\Projects\Digital_Diary_App\Digital_Diary_Console_Application\DigitalDiary\DigitalDiary\Menus.cpp(159,24): warning C4101: 'e': unreferenced local variable
-D:\University\Projects\Digital_Diary_App\Digital_Diary_Console_Application\DigitalDiary\DigitalDiary\Menus.cpp(189,24): warning C4101: 'e': unreferenced local variable
-D:\University\Projects\Digital_Diary_App\Digital_Diary_Console_Application\DigitalDiary\DigitalDiary\Menus.cpp(219,24): warning C4101: 'e': unreferenced local variable
-D:\University\Projects\Digital_Diary_App\Digital_Diary_Console_Application\DigitalDiary\DigitalDiary\Menus.cpp(252,24): warning C4101: 'e': unreferenced local variable
-D:\University\Projects\Digital_Diary_App\Digital_Diary_Console_Application\DigitalDiary\DigitalDiary\Menus.cpp(283,24): warning C4101: 'e': unreferenced local variable
-D:\University\Projects\Digital_Diary_App\Digital_Diary_Console_Application\DigitalDiary\DigitalDiary\Menus.cpp(313,24): warning C4101: 'e': unreferenced local variable
-  Navigations.cpp
-D:\University\Projects\Digital_Diary_App\Digital_Diary_Console_Application\DigitalDiary\DigitalDiary\Menus.cpp(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-D:\University\Projects\Digital_Diary_App\Digital_Diary_Console_Application\DigitalDiary\DigitalDiary\Menus.cpp(31,24): warning C4101: 'e': unreferenced local variable
-D:\University\Projects\Digital_Diary_App\Digital_Diary_Console_Application\DigitalDiary\DigitalDiary\Menus.cpp(62,24): warning C4101: 'e': unreferenced local variable
-D:\University\Projects\Digital_Diary_App\Digital_Diary_Console_Application\DigitalDiary\DigitalDiary\Menus.cpp(97,24): warning C4101: 'e': unreferenced local variable
-D:\University\Projects\Digital_Diary_App\Digital_Diary_Console_Application\DigitalDiary\DigitalDiary\Menus.cpp(127,24): warning C4101: 'e': unreferenced local variable
-D:\University\Projects\Digital_Diary_App\Digital_Diary_Console_Application\DigitalDiary\DigitalDiary\Menus.cpp(159,24): warning C4101: 'e': unreferenced local variable
-D:\University\Projects\Digital_Diary_App\Digital_Diary_Console_Application\DigitalDiary\DigitalDiary\Menus.cpp(189,24): warning C4101: 'e': unreferenced local variable
-D:\University\Projects\Digital_Diary_App\Digital_Diary_Console_Application\DigitalDiary\DigitalDiary\Menus.cpp(219,24): warning C4101: 'e': unreferenced local variable
-D:\University\Projects\Digital_Diary_App\Digital_Diary_Console_Application\DigitalDiary\DigitalDiary\Menus.cpp(252,24): warning C4101: 'e': unreferenced local variable
-D:\University\Projects\Digital_Diary_App\Digital_Diary_Console_Application\DigitalDiary\DigitalDiary\Menus.cpp(283,24): warning C4101: 'e': unreferenced local variable
-D:\University\Projects\Digital_Diary_App\Digital_Diary_Console_Application\DigitalDiary\DigitalDiary\Menus.cpp(313,24): warning C4101: 'e': unreferenced local variable
-  UserIOStream.cpp
-D:\University\Projects\Digital_Diary_App\Digital_Diary_Console_Application\DigitalDiary\DigitalDiary\Menus.cpp(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-D:\University\Projects\Digital_Diary_App\Digital_Diary_Console_Application\DigitalDiary\DigitalDiary\Menus.cpp(31,24): warning C4101: 'e': unreferenced local variable
-D:\University\Projects\Digital_Diary_App\Digital_Diary_Console_Application\DigitalDiary\DigitalDiary\Menus.cpp(62,24): warning C4101: 'e': unreferenced local variable
-D:\University\Projects\Digital_Diary_App\Digital_Diary_Console_Application\DigitalDiary\DigitalDiary\Menus.cpp(97,24): warning C4101: 'e': unreferenced local variable
-D:\University\Projects\Digital_Diary_App\Digital_Diary_Console_Application\DigitalDiary\DigitalDiary\Menus.cpp(127,24): warning C4101: 'e': unreferenced local variable
-D:\University\Projects\Digital_Diary_App\Digital_Diary_Console_Application\DigitalDiary\DigitalDiary\Menus.cpp(159,24): warning C4101: 'e': unreferenced local variable
-D:\University\Projects\Digital_Diary_App\Digital_Diary_Console_Application\DigitalDiary\DigitalDiary\Menus.cpp(189,24): warning C4101: 'e': unreferenced local variable
-D:\University\Projects\Digital_Diary_App\Digital_Diary_Console_Application\DigitalDiary\DigitalDiary\Menus.cpp(219,24): warning C4101: 'e': unreferenced local variable
-D:\University\Projects\Digital_Diary_App\Digital_Diary_Console_Application\DigitalDiary\DigitalDiary\Menus.cpp(252,24): warning C4101: 'e': unreferenced local variable
-D:\University\Projects\Digital_Diary_App\Digital_Diary_Console_Application\DigitalDiary\DigitalDiary\Menus.cpp(283,24): warning C4101: 'e': unreferenced local variable
-D:\University\Projects\Digital_Diary_App\Digital_Diary_Console_Application\DigitalDiary\DigitalDiary\Menus.cpp(313,24): warning C4101: 'e': unreferenced local variable
-  Generating Code...
+D:\University\Projects\Digital_Diary_App\Digital_Diary_Console_Application\DigitalDiary\DigitalDiary\Menus.cpp(68,24): warning C4101: 'e': unreferenced local variable
+D:\University\Projects\Digital_Diary_App\Digital_Diary_Console_Application\DigitalDiary\DigitalDiary\Menus.cpp(98,24): warning C4101: 'e': unreferenced local variable
+D:\University\Projects\Digital_Diary_App\Digital_Diary_Console_Application\DigitalDiary\DigitalDiary\Menus.cpp(130,24): warning C4101: 'e': unreferenced local variable
+D:\University\Projects\Digital_Diary_App\Digital_Diary_Console_Application\DigitalDiary\DigitalDiary\Menus.cpp(160,24): warning C4101: 'e': unreferenced local variable
+D:\University\Projects\Digital_Diary_App\Digital_Diary_Console_Application\DigitalDiary\DigitalDiary\Menus.cpp(190,24): warning C4101: 'e': unreferenced local variable
+D:\University\Projects\Digital_Diary_App\Digital_Diary_Console_Application\DigitalDiary\DigitalDiary\Menus.cpp(223,24): warning C4101: 'e': unreferenced local variable
+D:\University\Projects\Digital_Diary_App\Digital_Diary_Console_Application\DigitalDiary\DigitalDiary\Menus.cpp(254,24): warning C4101: 'e': unreferenced local variable
+D:\University\Projects\Digital_Diary_App\Digital_Diary_Console_Application\DigitalDiary\DigitalDiary\Menus.cpp(284,24): warning C4101: 'e': unreferenced local variable
+D:\University\Projects\Digital_Diary_App\Digital_Diary_Console_Application\DigitalDiary\DigitalDiary\Navigations.cpp(354,24): warning C4101: 'e': unreferenced local variable
   DigitalDiary.vcxproj -> D:\University\Projects\Digital_Diary_App\Digital_Diary_Console_Application\DigitalDiary\x64\Debug\DigitalDiary.exe

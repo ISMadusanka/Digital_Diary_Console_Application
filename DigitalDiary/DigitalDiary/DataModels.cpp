@@ -1,5 +1,6 @@
 #pragma once
 #include <iostream>
+#include "UserIOStream.cpp"
 
 using namespace std;
 
@@ -111,8 +112,18 @@ public:
 	void printList() {
 		CategoryNode* current = head;
 		for (int i = 0; i < size; i++) {
-			cout << current->val.topic << endl<<endl;
-			cout << current->val.short_description << endl << endl;
+			if (current->val.date.year == -1) {
+				break;
+			}
+			cout << "\n-----------------------------------------------------\n";
+			cout << "DATE: " << current->val.date.day << "/" << current->val.date.month << "/" << current->val.date.year << endl;
+			cout << "Topic: ";
+			cout << current->val.topic << endl;
+			cout << "Short Description: ";
+			cout << current->val.short_description << endl;
+			cout << "Description: ";
+			cout << current->val.description << endl;
+			cout << "-----------------------------------------------------\n";
 
 			current = current->next;
 		}
