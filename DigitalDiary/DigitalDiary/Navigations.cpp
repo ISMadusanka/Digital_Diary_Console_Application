@@ -16,11 +16,17 @@ public:
     HashMap logsMap;
 
     //stacks to hold indexes of hash map which particular categories are stored.
+
     Stack healthCategotyIndexesStack;
+
     Stack educationCategotyIndexesStack;
+
     Stack financeCategotyIndexesStack;
+
     Stack lifestyleCategotyIndexesStack;
+
     Stack fitnessCategotyIndexesStack;
+
     Stack otherCategotyIndexesStack;
 
 
@@ -117,6 +123,7 @@ public:
                 checkDate = logsMap.hashArray[HashMap().HASH_FUNCTION(logDate)].key;
                 if (checkDate.year ==logDate.year && checkDate.month == logDate.month && checkDate.day == logDate.day) {
                     log = logsMap.hashArray[HashMap().HASH_FUNCTION(logDate)];
+                    cout << log.health.getSize();
                     
                 }
 
@@ -372,7 +379,7 @@ public:
             case 1:
                 //Search by date
                 sDate = EnterDate();
-                cout << "HEALTH===============================================================================\n";
+                cout << "HEALTH==================================================================================\n";
                 logsMap.search(sDate).health.printList();
                 cout << "EDUCATION===============================================================================\n";
                 logsMap.search(sDate).education.printList();
